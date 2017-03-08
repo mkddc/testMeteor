@@ -1,0 +1,1 @@
+import Shops from '/imports/api/shops.js'

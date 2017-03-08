@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* CSS declarations go here */
+
+body{
+	text-align: center;
+}
+
+.bigContainer{
+	text-align: center;
+}
+
+.mapContainer{
+	border: 1px solid black;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.GMap{
+
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.logo{
+	position: absolute;
+	width: 20px;
+	height: auto;
+	left:-10px;
+	top:-10px;
+}
+
+.logoSelected{
+	position: absolute;
+	width: 20px;
+	height: auto;
+	left:-10px;
+	top:-10px;
+	background: #81C784;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.infoBox{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 150px;
+	z-index: 100;
+	background: #01579B;
+	border: 1px solid #0277BD;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+.pNom{
+	font-weight: bold;
+}
+
+.btn{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	height: 40px;
+	z-index: 2;
+	font-size: 14px;
+	font-weight: bold;
+	background: #0277BD;
+	color: #fff;
+	border: 1px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 3px #212121;
+}
